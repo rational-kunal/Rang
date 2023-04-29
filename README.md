@@ -1,6 +1,6 @@
 # Rang
 
-[![CI Status](https://img.shields.io/travis/28783605/Rang.svg?style=flat)](https://travis-ci.org/28783605/Rang)
+[![CI Status](https://img.shields.io/travis/rational-kunal/Rang.svg?style=flat)](https://travis-ci.org/rational-kunal/Rang)
 [![Version](https://img.shields.io/cocoapods/v/Rang.svg?style=flat)](https://cocoapods.org/pods/Rang)
 [![License](https://img.shields.io/cocoapods/l/Rang.svg?style=flat)](https://cocoapods.org/pods/Rang)
 [![Platform](https://img.shields.io/cocoapods/p/Rang.svg?style=flat)](https://cocoapods.org/pods/Rang)
@@ -22,7 +22,7 @@ pod 'Rang'
 
 ## Author
 
-28783605, kunalgk1999@gmail.com
+Kunal Kamble, kunalgk1999@gmail.com
 
 ## License
 

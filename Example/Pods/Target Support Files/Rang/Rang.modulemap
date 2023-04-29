@@ -1,0 +1,6 @@
+framework module Rang {
+  umbrella header "Rang-umbrella.h"
+
+  export *
+  module * { export * }
+}

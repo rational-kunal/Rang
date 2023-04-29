@@ -1,0 +1,6 @@
+framework module Pods_Rang_Example {
+  umbrella header "Pods-Rang_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - Rang (0.1.0)
+
+DEPENDENCIES:
+  - Rang (from `../`)
+
+EXTERNAL SOURCES:
+  Rang:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Rang: 4b3ed9cb0dce33d1086c25d9107cc12844f611fa
+
+PODFILE CHECKSUM: 8aa702e48af96d39d29bb4abbe5dbf79b912d253
+
+COCOAPODS: 1.12.0
