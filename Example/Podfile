@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'Rang_Example' do
+  pod 'Rang', :path => '../'
+
+  target 'Rang_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
