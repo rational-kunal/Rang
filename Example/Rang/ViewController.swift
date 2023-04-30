@@ -6,12 +6,14 @@
 //  Copyright (c) 2023 Kunal Kamble. All rights reserved.
 //
 
+import Rang
 import UIKit
 
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        view.backgroundColor = .random
     }
 
     override func didReceiveMemoryWarning() {
