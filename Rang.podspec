@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Are you tired of using the same old boring colors? Fear not, my friend, for I have the solution! With this library, you'll have more color options than Spongebob has facial expressions. Get ready to unleash your creativity and make some eye-catching designs!
                        DESC
 
   s.homepage         = 'https://github.com/rational-kunal/Rang'
@@ -26,7 +26,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Kunal Kamble' => 'kunalgk1999@gmail.com' }
   s.source           = { :git => 'https://github.com/rational-kunal/Rang.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/rational_kunal'
 
   s.ios.deployment_target = '10.0'
 
