@@ -1,9 +1,4 @@
-# <span style="color:blue">रं</span>ग • Rang • Color
-
-[![CI Status](https://img.shields.io/travis/rational-kunal/Rang.svg?style=flat)](https://travis-ci.org/rational-kunal/Rang)
-[![Version](https://img.shields.io/cocoapods/v/Rang.svg?style=flat)](https://cocoapods.org/pods/Rang)
-[![License](https://img.shields.io/cocoapods/l/Rang.svg?style=flat)](https://cocoapods.org/pods/Rang)
-[![Platform](https://img.shields.io/cocoapods/p/Rang.svg?style=flat)](https://cocoapods.org/pods/Rang)
+# रंग • Rang • Color
 
 Are you tired of using the same old boring colors? Fear not, my friend, for I have the solution! With this library, you'll have more color options than Spongebob has facial expressions. Get ready to unleash your creativity and make some eye-catching designs!
 
@@ -33,7 +28,7 @@ To run the development example project, clone the repo, and run `pod install` fr
 
 ## Author
 
-Kunal Kamble, kunalgk1999@gmail.com
+Kunal Kamble (kunalgk1999@gmail.com)
 
 ## License
 
