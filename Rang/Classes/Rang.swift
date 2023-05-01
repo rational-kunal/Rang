@@ -162,3 +162,17 @@ public extension UIColor {
     static var whiteSmoke: UIColor { return UIColor(245, 245, 245) }
     static var yellowGreen: UIColor { return UIColor(154, 205, 50) }
 }
+
+// MARK: Image with the color
+
+public extension UIColor {
+    func asImage(size: CGSize = CGSize(width: 1, height: 1)) -> UIImage {
+        let rect = CGRect(origin: .zero, size: size)
+        UIGraphicsBeginImageContextWithOptions(rect.size, false, 0.0)
+        setFill()
+        UIRectFill(rect)
+        let image = UIGraphicsGetImageFromCurrentImageContext()!
+        UIGraphicsEndImageContext()
+        return image
+    }
+}

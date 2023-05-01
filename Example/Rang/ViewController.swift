@@ -40,7 +40,7 @@ class ViewController: UIViewController, UITableViewDataSource {
         if section == 0 { return UIKitFixedColorAndName.count }
         else if section == 1 { return rangColorAndName.count }
         return 0
-    } 
+    }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "UITableViewCell")!
@@ -50,7 +50,7 @@ class ViewController: UIViewController, UITableViewDataSource {
         else if indexPath.section == 1 { colorDetail = rangColorAndName[indexPath.row] }
 
         var content = cell.defaultContentConfiguration()
-        content.image = colorDetail?.color.image(CGSizeMake(84, 32))
+        content.image = colorDetail?.color.asImage(size: CGSizeMake(84, 32))
         content.imageProperties.cornerRadius = 4
         content.text = colorDetail?.name
         cell.contentConfiguration = content
@@ -62,20 +62,6 @@ class ViewController: UIViewController, UITableViewDataSource {
         if section == 0 { return "UIKit Fixed Colors" }
         else if section == 1 { return "Rang Extended Colors" }
         return "Unknown"
-    }
-}
-
-// MARK: UIColor to image
-
-extension UIColor {
-    func image(_ size: CGSize = CGSize(width: 1, height: 1)) -> UIImage? {
-        let rect = CGRect(origin: .zero, size: size)
-        UIGraphicsBeginImageContextWithOptions(rect.size, false, 0.0)
-        setFill()
-        UIRectFill(rect)
-        let image = UIGraphicsGetImageFromCurrentImageContext()
-        UIGraphicsEndImageContext()
-        return image
     }
 }
 
